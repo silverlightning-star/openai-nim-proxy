@@ -96,7 +96,6 @@ const nimRequest = {
   model: nimModel,
   messages: messages,
   temperature: temperature || 0.7,
-  top_p: 0.9,
   max_tokens: max_tokens || 16000,
   extra_body: ENABLE_THINKING_MODE ? { chat_template_kwargs: { thinking: true } } : undefined,
   stream: stream || false
